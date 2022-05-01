@@ -11,7 +11,10 @@ to rewrite an existing class for implementing new features`
 `This means that every subclass or derived class should be substitutable for their base or parent class`
 
 ## ISP
-`Interfaces should not force classes to implement what they can't do. Large interfaces should be divided into small ones`
+`Interfaces should not force classes to implement what they can't do. Large interfaces should be divided into small ones
+Clients should not be forced to depend on methods they do not use`
+### `Guideline for ISP`
+### One fat interface need to be split to many smaller and relevant interfaces so that clients can know about the interfaces that are relevant to them
 
 ## DIP
 `Components should depend on abstractions, not on concretions`
