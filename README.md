@@ -5,7 +5,8 @@
 
 ## OCP
 `Classes should be open for extension and closed for modification. In other words, you should not have 
-to rewrite an existing class for implementing new features`
+to rewrite an existing class for implementing new features that means adding new functionalities without
+changing existing code`
 
 ## LSP
 `This means that every subclass or derived class should be substitutable for their base or parent class`
